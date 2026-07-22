@@ -14,4 +14,5 @@ EditorBuildSettings:
     com.unity.polyspatial.xr.xr_settings: {fileID: 11400000, guid: cad8e6c3a14b3491eb1cdeb9295338f7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d1b44b12dbc12554c862e577406554bd, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 91384b14c79fa804d924648a4e81b07c, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a667237169d354638b7035fb8846f187, type: 2}
   m_UseUCBPForAssetBundles: 0
