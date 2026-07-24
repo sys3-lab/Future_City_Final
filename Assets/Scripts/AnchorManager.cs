@@ -8,7 +8,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+#if UNITY_VISIONOS
 using UnityEngine.XR.VisionOS;
+#endif
 
 public class AnchorManager : MonoBehaviour
 {
@@ -23,12 +25,16 @@ public class AnchorManager : MonoBehaviour
 
     void Start()
     {
+    #if UNITY_VISIONOS
         if (LoaderUtility.GetActiveLoader()?.GetLoadedSubsystem<XRAnchorSubsystem>() != null)
         {
-            // XRAnchorSubsystem was loaded. The platform supports anchors.
             Debug.Log("XRAnchorSubsystem was loaded. The platform supports anchors.");
             CheckForOptionalFeatureSupport(anchorManager);
         }
+    #else
+    // Quest P0 暂不运行 visionOS Anchor 链路。
+        enabled = false;
+    #endif
     }
 
     void CheckForOptionalFeatureSupport(ARAnchorManager manager)

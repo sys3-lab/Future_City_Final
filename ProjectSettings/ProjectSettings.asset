@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: demoplz
-  productName: futurecity_last
+  productName: FutureCityQuestP0
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -143,6 +143,9 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: bb65518a4a80049acbc5e85e70dbbee0, type: 2}
+  - {fileID: 11400000, guid: d1b44b12dbc12554c862e577406554bd, type: 2}
+  - {fileID: -3263493256082931484, guid: a667237169d354638b7035fb8846f187, type: 2}
+  - {fileID: -7741892875543526863, guid: 91384b14c79fa804d924648a4e81b07c, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -164,6 +167,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
+    Android: com.songlin.futurecityquest.p0
     VisionOS: com.demoplz.futurecity-last
     iPhone: com.DefaultCompany.PolySpatial-Project-Template
   buildNumber:
@@ -962,7 +966,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
