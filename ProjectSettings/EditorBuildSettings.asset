@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Final_Demo.unity
     guid: 392b1c0438574445386ec87a07e01b19
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Demo_Quest.unity
     guid: a92920e7497d346859369be94c5dfc2d
+  - enabled: 1
+    path: Assets/Scenes/FutureCity_Quest_P1_UI.unity
+    guid: 2282933d2f6644c40bd7181c320af217
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 25e1f68848051c946b9048e8426e646c, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: bb65518a4a80049acbc5e85e70dbbee0, type: 2}
