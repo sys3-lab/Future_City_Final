@@ -2506,7 +2506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &210654713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16669,6 +16669,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1473663167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1473663169}
+  - component: {fileID: 1473663168}
+  m_Layer: 0
+  m_Name: QuestWindowEditingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1473663168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473663167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090772900cea541aca2670e99bff748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modeController: {fileID: 829221702}
+  edgePadding: 0.5
+  preventOverlap: 1
+  highlightOnSelect: 1
+  logEvents: 1
+--- !u!4 &1473663169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473663167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.17272477, y: 1.5023576, z: 0.84992117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1486645916 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8899745588217259038, guid: 44d9d2fa2545c124e81bc97011135655, type: 3}
@@ -26261,3 +26310,4 @@ SceneRoots:
   - {fileID: 829221701}
   - {fileID: 57963141}
   - {fileID: 210654714}
+  - {fileID: 1473663169}
