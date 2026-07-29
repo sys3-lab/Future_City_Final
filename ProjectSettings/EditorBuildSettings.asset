@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FutureCity_Quest_P2_Mode.unity
     guid: c9e85d7cece80492589e145178dac391
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FutureCity_Quest_P3_Window.unity
     guid: ebfe4ffadc64c47bf8e944104d456b4b
+  - enabled: 1
+    path: Assets/Scenes/FutureCity_Quest_P4_PushPull.unity
+    guid: 3f2c637964d20475ea25de8f98972ae0
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 25e1f68848051c946b9048e8426e646c, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: bb65518a4a80049acbc5e85e70dbbee0, type: 2}
